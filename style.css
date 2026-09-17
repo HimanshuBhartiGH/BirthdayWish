@@ -538,9 +538,9 @@ header .wrap { width: min(100% - 32px, 760px); }
 .album-autoplay > span { width: 6px; height: 6px; border-radius: 50%; background: var(--rose); box-shadow: 0 0 0 4px rgba(233, 68, 112, .12); animation: album-live 1.5s ease-in-out infinite; }
 @keyframes album-live { 50% { opacity: .35; transform: scale(.72); } }
 @media (max-width: 600px) {
-.album-card-rotor { min-height: 480px; padding: 19px; border-radius: 18px; }
+.album-card-rotor { min-height: 600px; padding: 19px; border-radius: 18px; }
 .album-rotor-quote { font-size: 23px; }
-.album-rotor-image-wrap { margin-top: 19px; aspect-ratio: 1.08; }
+.album-rotor-image-wrap { margin-top: 19px; aspect-ratio: 0.7; }
 .album-rotor-caption { font-size: 9px; }
 .album-controls { margin-top: 14px; }
 }
